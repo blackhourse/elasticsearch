@@ -5,15 +5,10 @@ spring:
 server:
   port: 8081
 
-mybatis:
-  mapper-locations:
-    - classpath:dao/*.xml
-    - classpath*:com/**/mapper/*.xml
-
 logging:
   level:
     root: info
-    com.letc.mall: debug
+    com.github.elasticsearch: debug
 
 
 
