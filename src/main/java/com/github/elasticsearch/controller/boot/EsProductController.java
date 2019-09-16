@@ -1,7 +1,7 @@
-package com.github.elasticsearch.controller;
+package com.github.elasticsearch.controller.boot;
 
-import com.github.elasticsearch.domain.EsProduct;
-import com.github.elasticsearch.service.EsProductService;
+import com.github.elasticsearch.domain.boot.EsProduct;
+import com.github.elasticsearch.service.boot.EsProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;

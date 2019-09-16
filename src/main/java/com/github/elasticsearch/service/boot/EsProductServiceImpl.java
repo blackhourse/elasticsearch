@@ -1,8 +1,7 @@
-package com.github.elasticsearch.service.impl;
+package com.github.elasticsearch.service.boot;
 
-import com.github.elasticsearch.domain.EsProduct;
+import com.github.elasticsearch.domain.boot.EsProduct;
 import com.github.elasticsearch.repository.EsProductRepository;
-import com.github.elasticsearch.service.EsProductService;
 import org.elasticsearch.common.lucene.search.function.FunctionScoreQuery;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;

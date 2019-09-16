@@ -1,6 +1,6 @@
-package com.github.elasticsearch.service;
+package com.github.elasticsearch.service.boot;
 
-import com.github.elasticsearch.domain.EsProduct;
+import com.github.elasticsearch.domain.boot.EsProduct;
 import org.springframework.data.domain.Page;
 
 /**

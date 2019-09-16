@@ -1,4 +1,4 @@
-package com.github.elasticsearch.domain;
+package com.github.elasticsearch.domain.boot;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
